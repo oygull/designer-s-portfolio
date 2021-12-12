@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E5E5E5;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.headerInner{
+    width: 1130px;
+    margin: 0 auto;
+    display: flex;
+}
+.headerList{
+    display: flex;
+    list-style: none;
+    width: 338px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin: 72px 530px 130px 0px;
+}
+.headerLogo{
+    margin: 66px 108px 125px 0px;
+}
+.headerListLinks{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #25202F;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.active{
+    opacity: 1;
+    font-weight: 500;
+}
+.hamburger{
+    margin: 50px 0px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.3);
+    border: none;
+}
+#heroPart{
+    display: flex;
+    
+}
+.heroPar1{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+}
+.heroPar2{
+    margin-block: 20px 50px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+}
+.heroHeading{
+    font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+color: #3f3d3d;
+
+}
+.heroImg{
+    position: absolute;
+    width: 535px;
+    height: 622px;
+    left: 664px;
+    top: 46px;
+}
+.heroDesc{
+    width: 358px;
+   margin: 0px 142px 268px 165px;
+}
+.heroButton{
+   width: 200px;
+   height: 60px;
+   background: #8643DC;
+   border-radius: 100px;
+   font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.mainHeading{
+    margin: 15px 0px 50px 165px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    width: 246px;
+}
+.sections{
+    margin: 0px 0px 10px 165px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8643DC;
+}
+.hr{
+    margin-top: 10px;
+    margin-left: 165px;
+    width: 50px;
+    height: 3px;
+    border: none;
+    background-color: #8643DC;
+}
+.servicesList{
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    width: 1110px;
+    justify-content: space-evenly;
+}
+.servicesDiv{
+    display: flex;
+    margin-block: 40px 20px;
+}
+.servicesDiv img{
+    margin-right: 20px;
+}
+.servicesTitle{
+    margin: 15px 0px 35px  0px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #25202F;
+}
+.servicesPar{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #47444E;
+}
+.portfolio{
+    /* background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%); */
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.portfolioImages{
+    display: flex;
+    width: 1210px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.portfolioLink{
+    position: absolute;
+    width: 146px;
+    height: 32px;
+    left: 1095px;
+    top: 1368px;
+}
+.portfolioLink a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: #25202F;
+    }
+.portfolioLink img{
+    margin-left: 5px;
+}
+.clients{
+ margin-block: 50px 50px;
+}
+.clientsList{
+    display: flex;
+    width: 1110px;
+    justify-content: space-between;
+    margin: 0 auto;
+    list-style: none;
+}
+.clientsListLink{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+  text-align: center;
+  padding: 33px 60px;
+}
+.clientsListLink img{
+    margin-bottom: 10px;
+}
+.slack{
+    background: #FFF7FA;
+    border: 1px solid #FFE7F0;
+}
+.medium{
+    background: #EDFFF5;
+    border: 1px solid #CAFFE1;
+}
+.microsoft{
+    background: #F5FCFF;
+    border: 1px solid #DDF5FF;
+}
+.zeplin{
+    background: #FFFBF2;
+    border: 1px solid #FFEEC9;
+}
+.shopify{
+    background: #F4FFED;
+border: 1px solid #DBFFC4;
+}
+.testimonals{
+    padding-block: 70px 70px;
+    /* background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(1, 255, 176, 0.2) 100%); */
+}
+.testimonalsDiv{
+    width: 569px;
+    margin: 0 auto;
+    text-align: center;
+}
+.testimonalsQuote{
+    margin-block:  25px 25px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #636066;
+}
+.michaele{
+    border-radius: 20%;
+}
+.testimonalsHeading{
+    margin-block: 19px 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+.pager{
+    margin-top: 46px;
+}
+.id1{
+    position: absolute;
+width: 100px;
+height: 150px;
+left: 174px;
+top: 2807px;
+mix-blend-mode: luminosity;
+}
+.id2{
+    position: absolute;
+width: 70px;
+height: 105px;
+left: 330px;
+top: 3077px;
+mix-blend-mode: luminosity;
+}
+.id3{
+    position: absolute;
+width: 79px;
+height: 118px;
+left: 1054px;
+top: 3075px;
+mix-blend-mode: luminosity;
+}
+.id4{
+    position: absolute;
+width: 105px;
+height: 157.93px;
+left: 1173.37px;
+top: 2774.02px;
+mix-blend-mode: luminosity;
+}
+.blogDiv{
+    display: flex;
+}
+.blogTime{
+    display: block;
+    margin: 20px 200px 10px 0px;
+}
+.blog{
+    margin-block: 70px 70px;
+  padding-top: 70px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #8643DC;
+}
+.blogText{
+    margin: 20px 30px 119px 0px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    width: 350px;
+}
+.blogImg{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.blogHeading{
+    margin: 5px 25px 0px 165px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    width: 165px;
+}
+.contactHeading{
+    margin: 15px 0px 50px 165px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #25202F;
+    width: 512px;
+}
+.contactMeLInk{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    color: #8643DC;
+}
+.contactMeDiv{
+    width: 1310px;
+    display: flex;
+    justify-content: space-between;
+}
+.contactMeInput{
+    width: 1110px;
+    height: 40px;
+    background-color: transparent;
+    display: block;
+    margin: 45px auto;
+    border: none;
+    border-bottom: 1px solid  #A8A0B0;;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #A8A0B0;
+}
+.contactMeButton{
+    height: 60px;
+    width: 200px;
+   background: #8643DC;
+   border-radius: 100px;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   text-align: center;
+   color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    margin: 30px 0px 100px 165px;
+}
+.contactMeIcons{
+    width: 270px;
+    margin: 0 auto;
+}
+.contactMeHeading{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #21232D;
+}
+.contactList{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-block: 20px 80px;
+}
