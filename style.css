@@ -7,23 +7,31 @@ body{
     background: #E5E5E5;
     font-family: 'Red Hat Display', sans-serif;
 }
-.headerInner{
+header{
+    padding-block: 66px 100px;
+}
+.header-inner{
     width: 1130px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
-.headerList{
+.header-list{
     display: flex;
     list-style: none;
-    width: 338px;
+    width: 398px;
     justify-content: space-evenly;
     margin-top: 10px;
-    margin: 72px 530px 130px 0px;
+    align-items: center;
 }
-.headerLogo{
-    margin: 66px 108px 125px 0px;
+.header-logo{
+    margin-right: 108px;
 }
-.headerListLinks{
+.header-inner-part{
+   display: flex;
+  
+}
+.header-list-links{
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
@@ -36,50 +44,51 @@ body{
     font-weight: 500;
 }
 .hamburger{
-    margin: 50px 0px;
+   
     width: 70px;
     height: 70px;
     border-radius: 100%;
     box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.3);
     border: none;
 }
-#heroPart{
+#hero-part{
     display: flex;
-    
+    width: 1130px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
-.heroPar1{
+.hero-par1{
     font-weight: normal;
     font-size: 24px;
     line-height: 32px;
     color: #25202F;
 }
-.heroPar2{
+.hero-par2{
     margin-block: 20px 50px;
     font-weight: normal;
     font-size: 24px;
     line-height: 32px;
     color: #25202F;
 }
-.heroHeading{
+.hero-heading{
     font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 120%;
-color: #3f3d3d;
-
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+    color: #3f3d3d;
 }
-.heroImg{
-    position: absolute;
+.hero-img{
     width: 535px;
     height: 622px;
-    left: 664px;
-    top: 46px;
+    margin-top: -60px;
 }
-.heroDesc{
+.hero-desc{
     width: 358px;
-   margin: 0px 142px 268px 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.heroButton{
+.hero-button{
    width: 200px;
    height: 60px;
    background: #8643DC;
@@ -92,7 +101,7 @@ color: #3f3d3d;
     color: #FFFFFF;
     cursor: pointer;
 }
-.mainHeading{
+.main-heading{
     margin: 15px 0px 50px 165px;
     font-weight: bold;
     font-size: 36px;
@@ -115,52 +124,54 @@ color: #3f3d3d;
     border: none;
     background-color: #8643DC;
 }
-.servicesList{
+#services{
+    padding-block: 60px 60px;
+}
+.services-list{
     list-style: none;
     display: flex;
     margin: 0 auto;
     width: 1110px;
     justify-content: space-evenly;
 }
-.servicesDiv{
+.services-div{
     display: flex;
     margin-block: 40px 20px;
 }
-.servicesDiv img{
+.services-div img{
     margin-right: 20px;
 }
-.servicesTitle{
+.services-title{
     margin: 15px 0px 35px  0px;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     color: #25202F;
 }
-.servicesPar{
+.services-par{
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
     color: #47444E;
 }
-.portfolio{
+#portfolio{
     /* background: linear-gradient(180deg, rgba(187, 133, 255, 0.14) 0%, rgba(255, 177, 222, 0.14) 100%); */
-    margin-top: 100px;
-    margin-bottom: 100px;
+   padding-block: 100px 100px;
 }
-.portfolioImages{
+.portfolio-images{
     display: flex;
     width: 1210px;
     justify-content: space-between;
     margin: 0 auto;
 }
-.portfolioLink{
+.portfolio-link{
     position: absolute;
     width: 146px;
     height: 32px;
     left: 1095px;
-    top: 1368px;
+    top: 1498px;
 }
-.portfolioLink a{
+.portfolio-link a{
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -168,27 +179,27 @@ color: #3f3d3d;
     text-decoration-line: underline;
     color: #25202F;
     }
-.portfolioLink img{
+.portfolio-link img{
     margin-left: 5px;
 }
-.clients{
- margin-block: 50px 50px;
+#clients{
+padding-block: 50px 50px;
 }
-.clientsList{
+.clients-list{
     display: flex;
     width: 1110px;
     justify-content: space-between;
     margin: 0 auto;
     list-style: none;
 }
-.clientsListLink{
+.clients-list-link{
     width: 170px;
     height: 170px;
     border-radius: 10px;
   text-align: center;
   padding: 33px 60px;
 }
-.clientsListLink img{
+.clients-list-link img{
     margin-bottom: 10px;
 }
 .slack{
@@ -211,16 +222,16 @@ color: #3f3d3d;
     background: #F4FFED;
 border: 1px solid #DBFFC4;
 }
-.testimonals{
+#testimonals{
     padding-block: 70px 70px;
     /* background: linear-gradient(180deg, rgba(203, 163, 255, 0.2) 0%, rgba(1, 255, 176, 0.2) 100%); */
 }
-.testimonalsDiv{
+.testimonals-div{
     width: 569px;
     margin: 0 auto;
     text-align: center;
 }
-.testimonalsQuote{
+.testimonals-quote{
     margin-block:  25px 25px;
     text-align: center;
     font-weight: 500;
@@ -232,7 +243,7 @@ border: 1px solid #DBFFC4;
 .michaele{
     border-radius: 20%;
 }
-.testimonalsHeading{
+.testimonals-heading{
     margin-block: 19px 5px;
     font-weight: 500;
     font-size: 20px;
@@ -245,52 +256,52 @@ border: 1px solid #DBFFC4;
 }
 .id1{
     position: absolute;
-width: 100px;
-height: 150px;
+width: 70px;
+height: 70px;
 left: 174px;
-top: 2807px;
-mix-blend-mode: luminosity;
+top: 2907px;
+
 }
 .id2{
     position: absolute;
 width: 70px;
-height: 105px;
+height: 70px;
 left: 330px;
-top: 3077px;
-mix-blend-mode: luminosity;
+top: 3177px;
+
 }
 .id3{
     position: absolute;
-width: 79px;
-height: 118px;
+width: 70px;
+height: 70px;
 left: 1054px;
-top: 3075px;
-mix-blend-mode: luminosity;
+top: 3175px;
+
 }
 .id4{
     position: absolute;
-width: 105px;
-height: 157.93px;
+width: 70px;
+height: 70px;
 left: 1173.37px;
-top: 2774.02px;
-mix-blend-mode: luminosity;
+top: 2874.02px;
+
 }
-.blogDiv{
+.blog-div{
     display: flex;
 }
-.blogTime{
+.blog-time{
     display: block;
     margin: 20px 200px 10px 0px;
 }
-.blog{
-    margin-block: 70px 70px;
+#blog{
+    padding-block: 70px 70px;
   padding-top: 70px;
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
     color: #8643DC;
 }
-.blogText{
+.blog-text{
     margin: 20px 30px 119px 0px;
     font-weight: bold;
     font-size: 20px;
@@ -298,11 +309,11 @@ mix-blend-mode: luminosity;
     color: #000000;
     width: 350px;
 }
-.blogImg{
+.blog-img{
     margin-left: 20px;
     margin-right: 20px;
 }
-.blogHeading{
+.blog-heading{
     margin: 5px 25px 0px 165px;
     font-weight: bold;
     font-size: 36px;
@@ -310,7 +321,7 @@ mix-blend-mode: luminosity;
     color: #25202F;
     width: 165px;
 }
-.contactHeading{
+.contact-heading{
     margin: 15px 0px 50px 165px;
     font-weight: bold;
     font-size: 36px;
@@ -318,7 +329,7 @@ mix-blend-mode: luminosity;
     color: #25202F;
     width: 512px;
 }
-.contactMeLInk{
+.contact-me-link{
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
@@ -326,12 +337,12 @@ mix-blend-mode: luminosity;
     text-transform: lowercase;
     color: #8643DC;
 }
-.contactMeDiv{
+.contact-me-div{
     width: 1310px;
     display: flex;
     justify-content: space-between;
 }
-.contactMeInput{
+.contact-me-input{
     width: 1110px;
     height: 40px;
     background-color: transparent;
@@ -344,7 +355,7 @@ mix-blend-mode: luminosity;
     line-height: 26px;
     color: #A8A0B0;
 }
-.contactMeButton{
+.contact-me-button{
     height: 60px;
     width: 200px;
    background: #8643DC;
@@ -358,18 +369,18 @@ mix-blend-mode: luminosity;
     border: none;
     margin: 30px 0px 100px 165px;
 }
-.contactMeIcons{
+.contact-me-icons{
     width: 270px;
     margin: 0 auto;
 }
-.contactMeHeading{
+.contact-me-heading{
     font-weight: 500;
     font-size: 36px;
     line-height: 48px;
     text-align: center;
     color: #21232D;
 }
-.contactList{
+.contact-list{
     list-style: none;
     display: flex;
     justify-content: space-between;
